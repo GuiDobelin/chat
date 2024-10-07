@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  font-family: Montserrat;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+body {
+  font-size: 16px;
+}
+
+.card {
+  top: 100%;
+}
+
+.cardHeader {
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  display: inline-block;
+  position: absolute;
+  top: -5rem;
+  left:45rem;
+}
+
+.cardBody {
+  margin-top: 2rem;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 0.9rem;
+}
+
+input {
+  border: none;
+  padding: 0.5rem 0.1rem;
+  width: 100%;
+  border-radius: 2px;
+  border-bottom: 1px solid #000000;
+  transition: all 0.5s;
+}
+
+input:focus {
+  border-bottom: 1px solid #3b1313;
+}
+
+button {
+  background: #23be0b;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.chatrooms {
+  margin-top: 1rem;
+}
+
+.chatroom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.join {
+  background: #f72a2a;
+  padding: 0.25rem 1rem;
+  border-radius: 2px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
